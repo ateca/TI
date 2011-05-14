@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tabelka 4</title>
+    <!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+    <style>
+      article, aside, dialog, figure, footer, header,
+      hgroup, menu, nav, section { display: block; }
+
+      body { font-size: 15pt; font-family: "Times New Roman", serif; }
+      table { width: 266pt; border-spacing: 3pt; }
+      td { text-align: right; vertical-align: top; }
+      td:nth-child(2) { text-align: left; }
+      td:last-child { vertical-align: bottom; }
+      tr:nth-child(3) td:last-child, tr:nth-child(4) td:last-child { text-decoration: underline; }
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <td>1</td> <td colspan="2">Adjusted gross income . . . . . . . .</td> <td>$4,000</td>
+        </tr>
+        <tr>
+          <td>2</td> <td>Zero bracked amount for a single individual . . . . .</td> <td>$2,300</td>
+        </tr>
+        <tr>
+          <td>3</td> <td>Earned income . . . . . . . .</td> <td>1,500</td>
+        </tr>
+        <tr>
+          <td>4</td> <td colspan="2">Subtrack line 3 from line 2 . . . .</td> <td>800</td>
+        </tr>
+        <tr>
+          <td>5</td> <td colspan="2">Add lines 1 and 4. Enter here and on Form 1040, line 35 . . . . .</td> <td>$4,800</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
