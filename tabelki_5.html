@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tabelka 5</title>
+    <!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+    <style>
+      article, aside, dialog, figure, footer, header,
+      hgroup, menu, nav, section { display: block; }
+
+      table { border-collapse: collapse; float: left; margin-right: 30pt; }
+      th, td {
+        border: 1px solid black;
+        text-align: center;
+        font-weight: normal;
+        width: 33%;
+      }
+      #tab1 th, #tab1 td { padding: 1pt 2pt; }
+      #tab2 th, #tab2 td { padding: 1pt 15pt; }
+      #tab1 td:first-child { text-align: right; padding-right: 11pt; }
+      #tab1 td:last-child { text-align: right; padding-right: 10pt; }
+      #tab2 td:first-child { text-align: right; padding-right: 24pt; }
+      #tab2 td:last-child { text-align: right; padding-right: 23pt; }
+      #tab1 #star1 { padding-right: 5pt; }
+      #tab2 #star2 { padding-right: 17pt; }
+      #tab1 tfoot td:first-child, #tab2 tfoot td:first-child { border: none; text-align: left; padding: 1pt 2pt; }
+    </style>
+  </head>
+
+  <body>
+    <table id="tab1">
+      <thead>
+        <tr>
+          <th colspan="3">AT&amp;T Common Stock</th>
+        </tr>
+          <th>Year</th> <th>Price</th> <th>Divident</th>
+      </thead>
+      <tfoot>
+        <tr>
+          <td colspan="3">* (first quarter only)</td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td>1971</td> <td>41.54</td> <td>$2.60</td>
+        </tr>
+        <tr>
+          <td>2</td> <td>41.54</td> <td>2.70</td>
+        </tr>
+        <tr>
+          <td>3</td> <td>46.55</td> <td>2.87</td>
+        </tr>
+        <tr>
+          <td>4</td> <td>40.53</td> <td>3.24</td>
+        </tr>
+        <tr>
+          <td>5</td> <td>45.52</td> <td>3.40</td>
+        </tr>
+        <tr>
+          <td>6</td> <td>51.59</td> <td id="star1">.95*</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <table id="tab2">
+      <thead>
+        <tr>
+          <th colspan="3">AT&amp;T Common Stock</th>
+        </tr>
+          <th>Year</th> <th>Price</th> <th>Divident</th>
+      </thead>
+      <tfoot>
+        <tr>
+          <td colspan="3">* (first quarter only)</td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td>1971</td> <td>41.54</td> <td>$2.60</td>
+        </tr>
+        <tr>
+          <td>2</td> <td>41.54</td> <td>2.70</td>
+        </tr>
+        <tr>
+          <td>3</td> <td>46.55</td> <td>2.87</td>
+        </tr>
+        <tr>
+          <td>4</td> <td>40.53</td> <td>3.24</td>
+        </tr>
+        <tr>
+          <td>5</td> <td>45.52</td> <td>3.40</td>
+        </tr>
+        <tr>
+          <td>6</td> <td>51.59</td> <td id="star2">.95*</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
